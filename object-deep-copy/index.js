@@ -1,6 +1,6 @@
 function deepCopy(source, result) {
     if (!result) result = {};
-    if (typeof source != 'object'|| source instanceof Array || source === null) return result;
+    if (typeof source != 'object'|| source instanceof Array || source === null) return source;
     for(var key in source) {
         if (!source.hasOwnProperty(key)) continue;
         if (source[key] !== null && typeof source[key] == 'object') {
