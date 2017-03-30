@@ -1,11 +1,47 @@
 .red {
   background: #900;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .green {
   background: #090;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
 }
 
 .blue {
   background: #009;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.counters {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+}
+
+body {
+  margin: 0;
+}
+
+.counters {
+  color: #fff;
+  padding: 20px;
 }
